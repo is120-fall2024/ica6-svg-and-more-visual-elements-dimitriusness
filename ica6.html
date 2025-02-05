@@ -10,7 +10,15 @@
   <header>
     <div class="header-row">
       <!-- [Q1. Draw an svg logo and put it as the .header-logo div. Wrap the svg in an <a> with href referencing this page ] -->
-      <div class="header-logo">LOGO GOES HERE</div>
+        <div class="header-logo">
+          <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 100 100">
+              <circle cx="20" cy="50" r="45" fill="rgba(var(--accent-rgb), 1)" />
+              <text x="10" y="80" fill="rgba(var(--secondary-rgb), 1)" font-size="90" font-family="Arial, sans-serif" font-weight="bold" font-style="italic">N</text>
+            </svg>
+          </a>
+        </div>
+        
       <nav>
         <ul>
           <li><a href="#hero">hero</a></li>
@@ -22,10 +30,21 @@
   
   <section class="hero" id="hero">
     <!-- [Q2. use a <video> to insert a video to autoplay. ] -->
-    <div class="left-video">Insert Video Here</div>
+    <div class="left-video">
+      <video autoplay width="100%" height="100%" src="/ICA/ICA 6/vid.mp4" type="video/mp4">
+        <p>Your browser cannot play the provided video file.</p>
+      </video>
+    </div>
     <div class="right-content">
       <!-- [Q2 cont. Add paragraph text to the div below about the video you choose. ] -->
-      <div class="right-text"></div>
+      <div class="right-text">
+        <p>Here we are looking at <br>a highway in Vietnam.
+          <br><br>
+          You can see some cars driving <br>on the bridge in the distance, <br>but the road we are watching features motorcycles and motorcycle taxis!
+          <br><br>
+          Our protaganist is a taxi driver, <br>who as he is going along his business,<br>is helped by a fellow driver.
+        </p>
+      </div>
       <div class="right-button">
         <!-- [Q3. Style this button both for original styles and for the styles to change :onhover. ] -->
         <button>Style this button!</button>
