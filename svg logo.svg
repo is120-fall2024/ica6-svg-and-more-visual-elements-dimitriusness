@@ -1,0 +1,15 @@
+<svg width="120" height="100" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="svg logo">
+<g id="Circle Gradient">
+<circle cx="59.5" cy="49.5" r="37.5" fill="#D9D9D9"/>
+<circle cx="59.5" cy="49.5" r="37.5" fill="url(#paint0_linear_2_2)"/>
+</g>
+<text id="N" fill="#E0DFE2" xml:space="preserve" style="white-space: pre" font-family="Federant" font-size="75" letter-spacing="0em"><tspan x="44.9248" y="74.175">N</tspan></text>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2_2" x1="22" y1="49.5" x2="97" y2="49.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D38F22"/>
+<stop offset="1" stop-color="#D30022"/>
+</linearGradient>
+</defs>
+</svg>

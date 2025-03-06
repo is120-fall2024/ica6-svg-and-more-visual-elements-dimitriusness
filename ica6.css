@@ -36,6 +36,27 @@ header {
   color: rgba(var(--secondary-rgb), 1);
 }
 
+
+
+#Circle_Gradient, #N {
+  transition: all 1s ease;
+}
+
+#N {
+  fill: var(--secondary);
+}
+
+svg:hover #Circle_Gradient{
+  transform: translateX(40%);
+  opacity: 0%;
+}
+
+svg:hover #N{
+  transform: translateX(-40%)
+}
+
+
+
 .header-row nav {
   position: absolute;
   left: calc(2vw + 10%);

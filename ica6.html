@@ -13,7 +13,7 @@
       <div class="header-logo">
         <div class= "svg">
           <a href="#">
-            <svg id="nolan-logo" width="100" height="100" viewbox="0 0 100 100">
+            <!-- <svg id="nolan-logo" width="100" height="100" viewbox="0 0 100 100">
               
               <defs>
                 <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -25,7 +25,23 @@
               <circle r="40" cx="50" cy="50" fill=url(#grad) />
               <text x="30" y="82" fill=#E0DFE2 font-size=3.3em font-family="futura" >N</text>
               
-            </svg>
+            </svg> -->
+            <svg width="120" height="100" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="svg logo">
+              <g id="Circle_Gradient">
+              <circle cx="59.5" cy="49.5" r="37.5" fill="#D9D9D9"/>
+              <circle cx="59.5" cy="49.5" r="37.5" fill="url(#paint0_linear_2_2)"/>
+              </g>
+              <text id="N" xml:space="preserve" style="white-space: pre" font-family="Futura" font-size="75" letter-spacing="0em"><tspan x="45" y="75">N</tspan></text>
+              </g>
+              <defs>
+              <linearGradient id="paint0_linear_2_2" x1="22" y1="49.5" x2="97" y2="49.5" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#D38F22"/>
+              <stop offset="1" stop-color="#D30022"/>
+              </linearGradient>
+              </defs>
+              </svg>
+
           </a>
         </div>
       </div>
@@ -44,7 +60,7 @@
     <!-- [Q2. use a <video> to insert a video to autoplay. ] -->
     <div class="left-video">
       <video autoplay muted width="100%" height="100%" loop >
-        <source src="/ICA 6/LA beach video.mp4" type="video/mp4">
+        <source src="/LA beach video.mp4" type="video/mp4">
         <p>Your browser cannot play the provided video file.</p>
       </video>
       <caption>Drone footage of the Kobe Bryant mural at the Venice Beach basketball court in Los Angeles, California.</caption>
@@ -89,5 +105,28 @@
   <section class="hw6-container" id="hw6">
 
   </section>
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const svg = document.getElementById('N')
+
+    svg.onclick = (e) => {
+        const colors = ['blue', 'red', 'yellow', 'pink', 'green', 'purple']
+        const rando = () => colors[Math.floor(Math.random() * colors.length)]
+        document.documentElement.style.cssText = `
+        --secondary: ${rando()}; 
+        `
+    }
+
+  </script>
+
 </body>
 </html>
